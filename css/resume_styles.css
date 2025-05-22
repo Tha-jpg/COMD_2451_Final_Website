@@ -1,0 +1,33 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #01011d;
+    box-sizing: border-box;}
+        
+
+    header h1 {
+        color: #ffd628;
+        background-color: #01011d; }
+
+    article h4 {
+        text-align: center;}
+
+    article img {
+        max-width: 100%;
+        height:auto;}
+
+    nav, #feature, footer {
+        margin: 1%; }
+
+    nav li {
+        display: inline;
+        padding: 0.5em;
+        color: white;}
+    body{
+        background-color: #01011d;}
+    header{
+        background-color: #01011d;}
+    .row-color-1 {
+        background-color:#ff3898
+    }
+
+   

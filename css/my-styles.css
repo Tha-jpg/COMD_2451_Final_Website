@@ -1,0 +1,279 @@
+q        * {
+        font-family: Arial, Verdana, sans-serif;
+        color: #fff7d4;
+        box-sizing: border-box;}
+        .body{
+          background-color: #01011d;
+        }
+        nav, #feature, footer {
+        
+          margin: 1%; }
+          
+          
+
+      nav li {
+          
+          display: inline;
+      padding: 0.5em;
+          color: white;}
+      body{
+          background-color: #01011d;}
+      header{
+          background-color: #01011d;}
+      .row-color-1 {
+          background-color:#ff3898
+      }
+      
+         /* Add a black background color to the top navigation */
+         .navbar {
+          z-index: 2;
+          position: fixed;
+          overflow: show;
+          background-color: #ff3898;
+          width: 100%;
+        }
+        
+        .navbar a {
+          font-family: "avenir-next-lt-pro-condensed", sans-serif;
+          font-weight: 700;
+          font-style: italic;
+          float: left;
+          font-size: 24px;
+          color: #fff7d4;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          background-color: #ff3898;
+        }
+        
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+          font-size: 24px;  
+          font-weight: 700;
+          border: none;
+          outline: none;
+          color: #fff7d4;
+          padding: 14px 16px;
+          background-color: #ff3898;
+          font-family: "avenir-next-lt-pro-condensed", sans-serif;
+          margin: 0;
+        }
+        
+        .navbar a:hover, .dropdown:hover .dropbtn {
+          background-color: #24d56d
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #fff7d4;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          font-family: "courier-new", sans-serif;
+          font-style: normal;
+          float: none;
+          color:#fff7d4;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+          background-color: #ffd628;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;}
+
+        .p1{
+          font-family: "courier-new", sans-serif;
+          font-style: normal;
+
+        }
+        .w3-display-container{
+          background-color: #01011d;
+        }
+        .w3-container{
+          background-color: #01011d;
+        }
+        .h1c {
+          margin-top: 100px;
+          color: #ffd628;
+          background-color: none; 
+          font-family: "avenir-next-lt-pro-condensed", sans-serif;
+          font-weight: 900;
+          font-style:  normal;
+          font-size:   50px;
+         
+          }
+         .h1 {
+            color: #ffd628;
+            background-color: #01011d; 
+            font-family: "avenir-next-lt-pro-condensed", sans-serif;
+            font-weight: 900;
+            font-style:  normal;
+            font-size:   50px;
+           
+            }
+            .h2about{
+              margin-bottom: 0%;
+              padding-top: 60px;
+              font-family: "avenir-next-lt-pro-condensed", sans-serif;
+              font-weight: 700;
+              font-style: italic;
+              color: #ffd628;
+            }
+          .h2{
+            padding-top: 60px;
+            font-family: "avenir-next-lt-pro-condensed", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            color: #ffd628;
+          }
+
+          
+          
+        article h4 {
+            text-align: center;}
+
+        article img {
+            max-width: 100%;
+            height:auto;}
+
+       
+          
+          div.scroll-container {
+            background-color: #01011d;
+            overflow: auto;
+            white-space: nowrap;
+            padding: 10px;
+          }
+          
+          div.scroll-container img {
+            padding: 10px;
+          }
+
+          h1, .p1{
+                color: #24d56d;
+          }
+          .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+          }
+          .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #24d56d;
+}
+
+input[type=submit] {
+  
+  background-color: #04AA6D;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #01011d;
+  padding: 20px;
+}
+
+
+          /* font-family: "courier-new", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+           
+          font-family: "courier-new", sans-serif;
+          font-weight: 400;
+          font-style: italic;
+
+          font-family: "courier-new", sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          font-family: "courier-new", sans-serif;
+          font-weight: 700;
+          font-style: italic; */
+
+          /* font-family: "avenir-next-lt-pro", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          font-family: "avenir-next-lt-pro", sans-serif;
+          font-weight: 400;
+          font-style: italic;
+          font-family: "avenir-next-lt-pro", sans-serif;
+          font-weight: 700;
+          font-style: normal;
+
+          font-family: "avenir-next-lt-pro-condensed", sans-serif;
+          font-weight: 800;
+          font-style: normal;
+          font-family: "avenir-next-lt-pro-condensed", sans-serif;
+          font-weight: 700;
+          font-style: italic; */
+          /* font-family: "avenir-next-lt-pro-condensed", sans-serif;
+          font-weight: 900;
+          font-style: normal; */
